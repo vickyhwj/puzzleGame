@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ScrollView
+        
+        android:id="@+id/scorll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:columnCount="3"
+                android:orientation="horizontal"
+                android:rowCount="3" >
+
+                <comclass.ImageButton1
+                    android:id="@+id/bu0"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/a1_01" />
+
+                <comclass.ImageButton1
+                    android:id="@+id/bu1"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/a1_02" />
+
+                <comclass.ImageButton1
+                    android:id="@+id/bu2"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/a1_03" />
+
+                <comclass.ImageButton1
+                    android:id="@+id/bu3"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/a1_04" />
+
+                <comclass.ImageButton1
+                    android:id="@+id/bu4"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/a1_05" />
+
+                <comclass.ImageButton1
+                    android:id="@+id/bu5"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/a1_06" />
+
+                <comclass.ImageButton1
+                    android:id="@+id/bu6"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/a1_07" />
+
+                <comclass.ImageButton1
+                    android:id="@+id/bu7"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/a1_08" />
+
+                <comclass.ImageButton1
+                    android:id="@+id/bu8"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/a1_09" />
+            </GridLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="随机" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/button1"
+                    android:text="解决" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/button2"
+                    android:text="上一步" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/button3"
+                    android:text="下一步" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/button4"
+                    android:layout_alignBottom="@+id/button4"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/button4"
+                    android:text="导入图片" />
+            </LinearLayout>
+            <ListView 
+                android:id="@+id/lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

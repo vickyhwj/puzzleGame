@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="3" >
+
+        <comclass.ImageButton1
+            android:id="@+id/bu0"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/a1_01"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <comclass.ImageButton1
+            android:id="@+id/bu1"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/a1_02"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <comclass.ImageButton1
+            android:id="@+id/bu2"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/a1_03"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <comclass.ImageButton1
+            android:id="@+id/bu3"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/a1_04"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <comclass.ImageButton1
+            android:id="@+id/bu4"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/a1_05"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <comclass.ImageButton1
+            android:id="@+id/bu5"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/a1_06"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <comclass.ImageButton1
+            android:id="@+id/bu6"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/a1_07"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <comclass.ImageButton1
+            android:id="@+id/bu7"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/a1_08"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <comclass.ImageButton1
+            android:id="@+id/bu8"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/a1_09"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </GridLayout>
+
+</LinearLayout>
